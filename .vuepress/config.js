@@ -3,7 +3,7 @@ module.exports = {
     "/": {
       lang: "en-US",
       title: "Shortkut",
-      description: "The fast, easy to use terminal shortkut manager!",
+      description: "The easiest way to 10x your command-line productivity!",
     },
   },
 
@@ -24,10 +24,8 @@ module.exports = {
         selectText: "Languages",
         // label for this locale in the language dropdown
         label: "English",
-        // Custom text for edit link. Defaults to "Edit this page"
-        editLinkText: "Edit this page on GitHub",
         // Custom sidebar values
-        sidebar: ["/", ["/install/", "Install"]],
+        sidebar: ["/", ["/install/", "Install"], ["/usage/", "Usage"]],
       },
     },
   },
